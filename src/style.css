@@ -47,7 +47,6 @@ padding: 0;
 .content-container{
 	float: left;
 	width: 75%;
-
 }
 .top-text{
 	float: left;
@@ -59,11 +58,7 @@ padding: 0;
 	background-color: #c7bbf9;
 	justify-content: space-around;
 }
-.main-content div:nth-child(3):before{
 
-
-
-}
 .footer-content{
 	height: 250px;
 	background-color: #c592c5;	
