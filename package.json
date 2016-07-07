@@ -1,0 +1,9 @@
+{
+  "name": "BSA 2016 JS. HW3 HTML+CSS",
+  "version": 0.1,
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.11"
+  }
+}
