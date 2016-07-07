@@ -1,0 +1,130 @@
+.container{
+	width: 100%;
+	height: 600px;
+	background-color: grey;
+}
+.header{
+	height: 112px;
+	width: 100%;
+	overflow: hidden;
+	background-color: #d8f3f7;
+}
+.picture{
+	float: left;
+}
+.picture img{
+	width: 150px;
+	vertical-align: middle;
+}
+.menu{
+	width: 25%;
+	float: left;
+}
+.menu ul{
+margin: 0;
+padding: 0;
+}
+.main-content div{
+	text-align: center;
+	width: 25%;
+	height: 25%;
+	border: 1px solid black;
+	margin: 20px 0 15px 0;
+	background-color: #9ea8ec;
+}
+.main-content div p{
+	margin: 35px;
+}
+.menu ul li{
+	background-color: #87bb87;
+	border: 1px solid black;
+	margin:0;
+	height: 20px;
+	text-align: left;
+	padding-top: 6px;
+	list-style-type: none;
+}
+.content-container{
+	float: left;
+	width: 75%;
+
+}
+.top-text{
+	float: left;
+}
+.main-content{
+	display: flex;
+	flex-flow: row wrap;
+	height: 350px;
+	background-color: #c7bbf9;
+	justify-content: space-around;
+}
+.main-content div:nth-child(3):before{
+
+
+
+}
+.footer-content{
+	height: 250px;
+	background-color: #c592c5;	
+	text-align: center;
+}
+.top-text p{
+text-align: left;
+margin-top: 50px;
+
+}
+.cent-data div{
+	background-color: #deeefd;
+	padding-top: 14px;
+	width: 33%;
+	height: 30px;
+	text-align: center;
+	float: left;
+	border: 1px solid black;
+	border-radius: 7px;
+}
+.cent-content div{
+	background-color: #deeefd;
+	clear: both;
+	text-align: center;
+	height: 30px;
+	padding-top: 14px;
+	border: 1px solid black;
+	border-radius: 7px;
+	width: 100%; 
+}
+.footer-content div{
+	height: 150px;
+	display: inline-block;
+	width: 30%;
+	padding: 0;
+	background-color: grey;
+	margin-top: 30px;
+	border: 1px solid black;
+
+}
+.footer-content div:nth-child(2){
+	margin: 0 10px;
+}
+.footer-content div p{
+	margin-top: 65px;
+}
+
+.main-content div:nth-child(3){
+		overflow:hidden;
+  		position:relative;
+}
+
+.main-content div:nth-child(3):after{
+  content:".";
+  color: #FA002E;
+  height: 20px;
+  width:200px;
+  display:inline-block;
+  background:linear-gradient(#FF4049,#FA002E);
+  position:absolute;
+  top:20px;
+  left:45%;
+  transform:rotate(45deg);
+}
